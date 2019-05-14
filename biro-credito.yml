@@ -6,9 +6,10 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 spring: 
   jpa:
-    hibernate:
-      ddl-auto: create
-    datasource:
-      url: mysql://localhost:3306/db
-      username: usuario
-      password: usuario
+    hibernate.ddl-auto: create
+    generate-ddl: true
+    show-sql: true 
+  datasource:
+    url:  url: jdbc:mysql://localhost:3306/db
+    username: usuario
+    password: usuario
