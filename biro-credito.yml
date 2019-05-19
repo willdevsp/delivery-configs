@@ -19,6 +19,18 @@ spring:
 spc:
   pessoa:
     fisica: 
-      url: http://5ce01836fc90670014267d15.mockapi.io/spc/pessoaFisica
+      url: https://5ce01836fc90670014267d15.mockapi.io/spc/pessoaFisica
     juridica:
-      url: http://5ce01836fc90670014267d15.mockapi.io/spc/pessoaJuridica
+      url: https://5ce01836fc90670014267d15.mockapi.io/spc/pessoaJuridica
+serasa:
+  pessoa:
+    fisica: 
+      url: https://5ce190698ad3c700145b7cfb.mockapi.io/serasa/pessoaFisica
+    juridica:
+      url: https://5ce190698ad3c700145b7cfb.mockapi.io/serasa/pessoaJuridica
+boavisa:
+  pessoa:
+    fisica: 
+      url: https://5ce190868ad3c700145b7d02.mockapi.io/boavista/pessoaFisica
+    juridica:
+      url: https://5ce190868ad3c700145b7d02.mockapi.io/boavista/pessoaJuridica
