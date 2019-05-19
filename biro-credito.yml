@@ -16,3 +16,9 @@ spring:
     url: jdbc:mysql://localhost:3306/db
     username: usuario
     password: usuario
+spc:
+  pessoa:
+    fisica: 
+      url: http://5ce01836fc90670014267d15.mockapi.io/spc/pessoaFisica
+    juridica:
+      url: http://5ce01836fc90670014267d15.mockapi.io/spc/pessoaJuridica
